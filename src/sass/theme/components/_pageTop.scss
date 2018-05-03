@@ -9,7 +9,7 @@
   padding: 0 32px 0 40px;
 
   &.scrolled {
-    background-color: rgba(black, 0.85)
+    background-color: rgba(73,73,73,0.9);
   }
 }
 
@@ -137,6 +137,10 @@ a.collapse-menu-link {
     margin: 0 0 0 -3px;
     height: 27px;
   }
+}
+
+.top-logo {
+  height: 50px;
 }
 
 @media screen and (max-width: $resS) {

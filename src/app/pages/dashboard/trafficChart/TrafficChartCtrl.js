@@ -15,15 +15,15 @@
       var dashboardColors = baConfig.colors.dashboard;
       $scope.doughnutData = {
           labels: [
-              'Other',
-              'Search engines',
-              'Referral Traffic',
-              'Direct Traffic',
-              'Ad Campaigns'
+              'Antminer S9',
+              'Antminer L3+',
+              'Antminer E3',
+              'Miningrigs',
+              'Antminer D3'
           ],
           datasets: [
               {
-                  data: [2000, 1500, 1000, 1200, 400],
+                  data: [10, 3, 7, 12, 1],
                   backgroundColor: [
                       dashboardColors.white,
                       dashboardColors.blueStone,
@@ -39,7 +39,7 @@
                       colorHelper.shade(dashboardColors.silverTree, 15),
                       colorHelper.shade(dashboardColors.gossip, 15)
                   ],
-                  percentage: [87, 22, 70, 38, 17]
+                  percentage: [10, 3, 7, 12, 1]
               }]
       };
 
