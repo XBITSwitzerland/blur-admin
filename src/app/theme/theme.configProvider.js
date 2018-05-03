@@ -23,11 +23,11 @@
 
   // dashboard colors for charts
   var dashboardColors = {
-    blueStone: '#005562',
-    surfieGreen: '#0e8174',
-    silverTree: '#6eba8c',
-    gossip: '#b9f2a1',
-    white: '#10c4b5',
+    blueStone: '#955D28',
+    surfieGreen: '#4AABC8',
+    silverTree: '#91C784',
+    gossip: '#E6A700',
+    white: '#A52336',
   };
 
   angular.module('BlurAdmin.theme')
