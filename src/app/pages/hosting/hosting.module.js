@@ -5,18 +5,18 @@
 (function () {
     'use strict';
   
-    angular.module('BlurAdmin.pages.miners', [])
+    angular.module('BlurAdmin.pages.hosting', [])
         .config(routeConfig);
   
     /** @ngInject */
     function routeConfig($stateProvider) {
       $stateProvider
-          .state('miners', {
-            url: '/miners',
-            templateUrl: 'app/pages/miners/miners.html',
-            title: 'Miners',
+          .state('hosting', {
+            url: '/hosting',
+            templateUrl: 'app/pages/miners/hosting.html',
+            title: 'Hosting',
             sidebarMeta: {
-              icon: 'ion-speedometer',
+              icon: 'ion-calendar',
               order: 1,
             },
           });

@@ -9,13 +9,14 @@
     'ui.router',
     'BlurAdmin.pages.dashboard',
     'BlurAdmin.pages.miners',
+    'BlurAdmin.pages.hosting',
     'BlurAdmin.pages.ui',
     'BlurAdmin.pages.components',
     'BlurAdmin.pages.form',
     'BlurAdmin.pages.tables',
     'BlurAdmin.pages.charts',
     'BlurAdmin.pages.maps',
-    'BlurAdmin.pages.profile',
+    'BlurAdmin.pages.profile'
   ])
       .config(routeConfig);
 
@@ -34,9 +35,6 @@
         title: 'Sign Up',
         fixedHref: 'reg.html',
         blank: true
-      }, {
-        title: 'User Profile',
-        stateRef: 'profile'
       }, {
         title: '404 Page',
         fixedHref: '404.html',
