@@ -15,36 +15,26 @@
       dataProvider: [
         {
           country: 'BTC',
-          visits: 3025,
-          color: layoutColors.primary
+          visits: 135,
+          color: '#F8A23B'
         },
         {
           country: 'BCH',
-          visits: 1882,
-          color: layoutColors.danger
+          visits: 70,
+          color: layoutColors.success
 
         },
         {
           country: 'DGB',
-          visits: 1809,
-          color: layoutColors.info
-        },
-        {
-          country: 'XVG',
-          visits: 1322,
-          color: layoutColors.success
-        },
-        {
-          country: 'XMR',
-          visits: 1122,
-          color: layoutColors.warning
+          visits: 27,
+          color: '#2E67B2'
         }
       ],
       valueAxes: [
         {
           axisAlpha: 0,
           position: 'left',
-          title: 'Visitors from country',
+          title: 'Hashrate (TH/s)',
           gridAlpha: 0.5,
           gridColor: layoutColors.border,
         }
@@ -52,9 +42,9 @@
       startDuration: 1,
       graphs: [
         {
-          balloonText: '<b>[[category]]: [[value]]</b>',
+          balloonText: '<b>[[category]]: [[value]] TH/s</b>',
           fillColorsField: 'color',
-          fillAlphas: 0.7,
+          fillAlphas: 1,
           lineAlpha: 0.2,
           type: 'column',
           valueField: 'visits'
