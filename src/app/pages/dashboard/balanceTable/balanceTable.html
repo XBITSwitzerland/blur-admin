@@ -2,7 +2,7 @@
   <table class="table table-hover">
     <thead>
     <tr class="black-muted-bg">
-      <th class="browser-icons">Image</th>
+      <th class="browser-icons"></th>
       <th class="align-right">Algorithm</th>
       <th class="align-right">Name</th>
       <th class="align-right">Price</th>
@@ -11,10 +11,9 @@
       <th class="align-right">Amount</th>
     </tr>
     </thead>
-    <tbody>
+    <tbody ng-controller="BalanceTableCtrl">
     <tr ng-repeat="item in balanceTableData" class="no-top-border">
       <td><img ng-src="{{::( item.image | appImage )}}" width="20" height="20"></td>
-      <td ng-class="nowrap">{{item.image}}</td>
       <td class="align-right">{{item.algorithm}}</td>
       <td class="align-right">{{item.name}}</td>
       <td class="align-right">{{item.price}}</td>
