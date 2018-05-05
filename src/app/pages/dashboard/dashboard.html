@@ -9,16 +9,22 @@
   </div>
   <div class="col-lg-6 col-md-12 col-sm-12"
            ba-panel
-           ba-panel-title="Revenue"
+           ba-panel-title="Hashrate"
            ba-panel-class="medium-panel">
-        <dashboard-line-chart></dashboard-line-chart>
+           <hashrate-chart></hashrate-chart>
   </div>
 </div>
 <div class="row">
   <div class="col-lg-6 col-md-12">
-    <div ba-panel ba-panel-title="Hover Rows" ba-panel-class="with-scroll table-panel">
-      <div include-with-scope="app/pages/dashboard/balanceTable/balanceTable.html"></div>
+    <div ba-panel ba-panel-title="Balances" ba-panel-class="with-scroll medium-panel">
+      <balance-table></balance-table>
+    </div>
+  </div>
+  <div class="col-lg-6 col-md-12">
+    <div ba-panel ba-panel-title="Revenue" ba-panel-class="medium-panel">
+      <dashboard-line-chart></dashboard-line-chart>
     </div>
   </div>
 </div>
+
 

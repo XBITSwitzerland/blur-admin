@@ -3,8 +3,8 @@
     <thead>
     <tr class="black-muted-bg">
       <th class="browser-icons"></th>
-      <th class="align-right">Algorithm</th>
       <th class="align-right">Name</th>
+      <th class="align-right">Algorithm</th>
       <th class="align-right">Price</th>
       <th class="align-right">Change 24h</th>
       <th class="table-arr"></th>
@@ -14,8 +14,8 @@
     <tbody ng-controller="BalanceTableCtrl">
     <tr ng-repeat="item in balanceTableData" class="no-top-border">
       <td><img ng-src="{{::( item.image | appImage )}}" width="20" height="20"></td>
-      <td class="align-right">{{item.algorithm}}</td>
       <td class="align-right">{{item.name}}</td>
+      <td class="align-right">{{item.algorithm}}</td>
       <td class="align-right">{{item.price}}</td>
       <td class="align-right">{{item.change}}</td>
       <td class="table-arr"><i ng-class="{'icon-up': item.isChangeUp, 'icon-down': !item.isChangeUp }"></i></td>
